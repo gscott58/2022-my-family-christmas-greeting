@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>2022 Christmas Greeting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Season's Greeting">
+    <meta name="keywords" content="Christmas, XMAS, Season's, Greetings">
+   <!-- reference to jQuery Library and jQuery UI -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <!-- reference to the jQuery Cycle 2 plugin-->
+    <script src="jquery/cycle2.js"></script>
+    <script src="jquery/cycle2-flip.js"></script>
+    <script src="jquery/cycle2-shuffle.js"></script>
+    <!-- reference to the jQuery Cycle 2 plugin-->
+    <!-- Google Fonts Dancing Script-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Sansita&display=swap" rel="stylesheet">
+
+    <!-- Google Fonts Dancing Script-->
+    <link rel="stylesheet" href="css/styles.css">
+    <style></style>
+</head>
+
+<body>
+    <div id="page">
+        <div class="adv-custom-caption" ><h1>Season's Greetings . . .</h1></div>
+        
+        <div class="cycle-slideshow"
+	        data-cycle-fx="shuffle"
+		    data-cycle-timeout="7500"
+            data-cycle-speed="4000"
+		    data-cycle-caption=".adv-custom-caption"
+		    data-cycle-caption-template="{{cycleTitle}}">
+            <img src="img/01-scott-family-holiday-greeting.jpg" alt="" data-cycle-title="<h1>Season's Greetings . . .</h1>">
+            <img src="img/02-scott-family-holiday-greeting.jpg" alt="" data-cycle-title="<h1>Season's Greetings . . .</h1>">
+            <img src="img/06-scott-family-holiday-greeting.jpg" alt="" data-cycle-title="<h1>Season's Greetings . . .</h1>">
+            <img src="img/04-scott-family-holiday-greeting.jpg" alt="" data-cycle-title="<h1>Season's Greetings . . .</h1>">
+            <img src="img/05-scott-family-holiday-greeting.jpg" alt="" data-cycle-title="<h1>Season's Greetings . . .</h1>">
+            <img src="img/03-scott-family-holiday-greeting.jpg" alt="" data-cycle-title="<h1>Season's Greetings . . .</h1>">
+            <!-- empty element for caption -->
+
+        </div>     
+
+        <footer>    
+            <div>
+                <div><p id="contact-name"><strong>Holiday Greeting Creations</strong></p></div>          
+
+                <div><p id="copyright-1"></p></div>
+                <div><p id="copyright-2"><strong>All Rights Reserved</strong></p></div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
